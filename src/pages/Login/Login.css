@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.container__login {
+
+  background-image: url('../../image/login-bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 91vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card__login {
+  background-color: #152059;
+  height: 463px;
+  width: 326px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.login__headers {
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.login__headers img {
+  width: 83px;
+  height: 97px;
+}
+
+.login__headers h2 {
+  color: white;
+  margin-top: 10px;
+}
+
+.login__body {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.login__body form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+form label {
+  color: white;
+  margin-left: 10px;
+}
+
+.login__footer {
+  height: 183px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.login__footer button {
+  width: 200px;
+  height: 41px;
+  background-color:  #8cbc34 ;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.login__footer button:hover{
+  background-color:  #f2ce5f;
+}
+
+.login__footer input {
+  background: none;
+  border: none;
+  color: white;
+  margin-bottom: 10px;
+
+}
+
+.login__footer a {
+  color: #8cbc34;
+}

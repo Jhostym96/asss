@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.register {
+  background-image: url("../../image/register-bg.jpg");
+  height: 91vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.box__register{
+  background-color: rgb(247, 247, 253);
+  width: 400px;
+  height: 500px;
+  border-radius: 15px;
+
+  align-items: center;
+  justify-content: center;
+}
